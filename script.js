@@ -61,6 +61,9 @@ function resetTimer() {
     playButton.classList.remove("fa-pause");
     playButton.classList.add("fa-play");
   }
+  if (playButton.classList.contains("fa-play")) {
+    stopTimer();
+  }
 }
 
 // Add click event listeners to the buttons
