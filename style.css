@@ -16,12 +16,6 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-header{
-    text-align:left;
-    padding: 2rem;
-    font-size: 2rem;
-}
-
 .wrapper{
     min-height: 60vh;
     width:350px;
